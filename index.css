@@ -13,14 +13,76 @@ font-family: Verdana;
 font-size: 100%;
 
 }
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #2D2D2D;
+  padding: 1em;
+}
+
+form {
+  border: 1px solid #FF5800;
+  border-radius: 0.3em;
+  padding: 0.3em;
+  margin: auto;
+}
+
+form input {
+
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+  width: 400px;
+
+}
+form button {
+  font-size: 1.2em;
+  border-radius: 0.2em;
+  border: none;
+  padding: 0.2em;
+  width: 50px;
+}
+
+form button {
+  cursor: pointer;
+  background: none;
+  color: whitesmoke;
+}
+
+form button:hover {
+  background-color: #FF5800;
+  color: #2D2D2D;
+}
+figure{
+  float: left;
+  width: 80%;
+  text-align: center;
+  text-indent: 0;
+  margin: 0.5em;
+  padding: 0.5em;
+}
+figure:hover {
+  background-color: #FF5800;
+  color: #2D2D2D;
+  border-radius: 0.7em;
+  -webkit-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  transform: scale(1.1);
+  transition-duration: 0.5s;
+
+}
 #menu-h{
-    background-color: rgb(37, 37, 39);
+    background-color: #2D2D2D;
+
 }
 
 #menu-h ul {
-    max-width: 800px;
+
     list-style: none;
     padding: 0;
+
 }
 
 #menu-h ul li {
@@ -33,15 +95,17 @@ font-size: 100%;
     display: inline-block;
     text-decoration: none;
     transition: background .4s;
+
 }
 
 #menu-h ul li a:hover {
-    background-color: rgb(24, 139, 233);
+    background-color: #E54F12;
 }
 
 #menu-h ul li:last-child a {
     float: right;
-    background-color: rgb(24, 139, 233);
+
+
 }
 .footer.footer{
 
@@ -153,66 +217,3 @@ color: #E54F12;
 text-align: center;
 
 }
-header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: #2D2D2D;
-    padding: 1em;
-}
-
-form {
-    border: 1px solid #FF5800;
-    border-radius: 0.3em;
-    padding: 0.3em;
-    margin: auto;
-}
-
-form input {
-
-  font-size: 1.2em;
-  border-radius: 0.2em;
-  border: none;
-  padding: 0.2em;
-  width: 400px;
-
-}
-form button {
-    font-size: 1.2em;
-    border-radius: 0.2em;
-    border: none;
-    padding: 0.2em;
-    width: 50px;
-}
-
-form button {
-    cursor: pointer;
-    background: none;
-    color: whitesmoke;
-}
-
-form button:hover {
-    background-color: #FF5800;
-    color: #2D2D2D;
-}
-figure{
-  float: left;
-    width: 80%;
-    text-align: center;
-
-
-    text-indent: 0;
-
-    margin: 0.5em;
-    padding: 0.5em;
-  }
-figure:hover {
-      background-color: #FF5800;
-      color: #2D2D2D;
-        border-radius: 0.7em;
-      -webkit-transform: scale(1.1);
-        -ms-transform: scale(1.1);
-        transform: scale(1.1);
-        transition-duration: 0.5s;
-
-  }
