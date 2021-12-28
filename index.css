@@ -106,8 +106,9 @@ z-index: 597;
 #cssmenu ul li {
   float: left;
 text-align: center;
-  vertical-align: middle;
-  width: 150px;
+vertical-align: middle;
+
+
 
 }
 
@@ -127,6 +128,7 @@ text-align: center;
   left: 0;
   z-index: 598;
   top: 100%;
+  width: 130px;
 
 }
 
@@ -136,6 +138,7 @@ text-align: center;
 }
 
 #cssmenu ul ul ul {
+border: 1px solid #2D2D2D;
   top: 0;
   left: auto;
   right: -99.5%;
