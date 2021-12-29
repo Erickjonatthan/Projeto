@@ -63,7 +63,9 @@ form button:hover {
   background-color: #FF5800;
   color: #2D2D2D;
 }
-
+.butao{
+    transition-duration: 0.5s;
+}
 .favorito{
 float: left;
 text-align: center;
