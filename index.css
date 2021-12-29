@@ -15,6 +15,9 @@ font-family: Verdana;
 font-size: 100%;
 
 }
+a {
+  margin-right: 10px;
+}
 header {
   display: flex;
   align-items: center;
@@ -28,7 +31,8 @@ form {
   border: 1px solid #FF5800;
   border-radius: 0.3em;
   padding: 0.3em;
-  margin: auto;
+  margin-left: auto;
+  margin-right:auto;
 
 }
 
@@ -100,11 +104,13 @@ text-indent: 0;
 .carrinho{
 
   float: left;
-  width: 60%;
+  width: 80%;
   text-indent: 0;
   margin: 0.5em;
   padding: 0.5em;
-  margin-right:40px;
+  line-height: 10px;
+
+
 }
 .carrinho:hover {
   background-color: #FF5800;
@@ -114,6 +120,7 @@ text-indent: 0;
   -ms-transform: scale(1.1);
   transform: scale(1.1);
   transition-duration: 0.5s;
+
 
 }
 #cssmenu .ult1 {
