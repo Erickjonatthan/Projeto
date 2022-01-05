@@ -250,12 +250,69 @@ border: 1px solid #2D2D2D;
   display: inline-block;
 }
 
-
+.titulo{
+	width:700px;
+	height:19px;
+	padding-left:10px;
+	margin-bottom:10px;
+	color:#FFF;
+}
 .vitrine{
-
+  margin: 10px 0;
+ 	padding: 5px;
+ 	width:698px;
+ 	height:auto;
+ 	border:solid 1px #ccc;
+ 	float:left;
 
 }
+.vitrine h2, .vitrine ul {
+	width: 691px;
+	border:solid 1px #ccc;
+	padding: 2px;
+	background: #FBFBFB;
+}
+.vitrine ul{
+	height: auto;
+	margin-top:10px;
+	margin-bottom:10px;
 
+}
+.vitrine h2{
+height: 20px;
+}
+.vitrine li{
+	width: 155px;
+	margin: 5px;
+	padding-bottom:10px;
+	text-align:center;
+	display:inline-block;
+	vertical-align:top;
+
+}
+.vitrine a{
+	color:#333;
+	font-size: 14px;
+	text-decoration:none;
+}
+.vitrine figure{
+	margin-bottom: 10px;
+}
+.vitrine span{
+	color: #FF0000;
+	font-size: 16px;
+
+	font-weight:bold;
+}
+.vitrine input{
+	width:94px;
+	height:33px;
+	background: url(../imagens/comprar.png) no-repeat;
+	border:0;
+	margin-top:10px;
+	cursor:pointer;
+
+}
 
 
 
