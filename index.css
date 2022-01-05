@@ -249,7 +249,12 @@ border: 1px solid #2D2D2D;
   padding: auto;
   display: inline-block;
 }
+#corpo-box{
 
+  width:500px;
+  height: 500px;
+  text-align: center;
+}
 .titulo{
 	width:700px;
 	padding-left:10px;
