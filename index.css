@@ -241,25 +241,25 @@ border: 1px solid #2D2D2D;
 }
 
 #corpo {
-  width: 500px;
-  height: 500px;
+  width:auto;
+  height: auto;
 
   text-align: center;
-  margin:10px auto;
+  margin:auto 300px;
   padding: auto;
   display: inline-block;
 }
 
 .titulo{
 	width:700px;
-	height:19px;
 	padding-left:10px;
 	margin-bottom:10px;
-	color:#FFF;
+	color:#000;
 }
 .vitrine{
-  margin: 10px 0;
- 	padding: 5px;
+
+  margin: auto;
+ 	padding: auto;
  	width:698px;
  	height:auto;
  	border:solid 1px #ccc;
@@ -279,7 +279,7 @@ border: 1px solid #2D2D2D;
 
 }
 .vitrine h2{
-height: 20px;
+height: 50px;
 }
 .vitrine li{
 	width: 155px;
