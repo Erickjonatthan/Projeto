@@ -2,7 +2,7 @@
 $servidor = "localhost";
 $usuario = "root";
 $senha = "";
-
+$tabela = "exemplo";
 $conexao = mysqli_connect($servidor, $usuario, $senha) or
 die("Não foi pssivel conectar ao servidor do BD");
 
